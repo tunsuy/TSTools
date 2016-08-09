@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<string name="com.baidu.android.pushservice.PushManager.LONGIN_VALUE">TCNyOM7inmR7ik0rFxDFYOHS</string>
+<int name="com.baidu.android.pushservice.PushManager.LOGIN_TYPE" value="0" />
+</map>

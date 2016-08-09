@@ -1,0 +1,27 @@
+1、imsendmsg.sh
+这个脚本是自动给一个用户或者是一个群组发送指定条数的消息。
+
+用法：
+sh imsendmsg.sh -account XX[-gid XX] -msg xxx -n xx -p xx num
+
+例如：
+sh imsendmsg.sh -account 33509 -msg 1 -n 82834 -p 12345 1000
+这条命令的意思就是：
+工号为82834的用户发送1000条消息给工号为33509的用户。
+注：msg 初始最好为1，因为脚本是让它递增的，可以很明显的看到确实是发了1000条。
+
+2、imsendmsgdup.sh
+这个脚本时自动创建指定个数的单聊会话
+
+用法：
+sh imsendmsg.sh -account xx -msg xxx num
+
+例如：
+sh imsendmsg.sh -account 33509 -msg hello 1000
+这条命令的意思就是：
+创建1000个与工号为33509的用户的会话。
+注：前提是必须要保证你的服务器上有1000个用户，
+因为我是抽取的服务器上的用户分别创建与33509用户的会话。
+
+
+https://200.200.0.8/svn/test/测试部文件服务器/测试工程/MOA版本/技术文档/tools

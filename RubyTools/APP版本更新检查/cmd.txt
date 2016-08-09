@@ -1,0 +1,4 @@
+su
+chmod -R 777 data/data/com.sangfor.pocket/
+exit
+exit

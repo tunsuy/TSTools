@@ -1,0 +1,9 @@
+使用方法：
+1.上传到设备的后台/etc/cron./ //这里可自己定义
+2.执行以下命令：
+dos2unix /etc/cron.daily/reliable_check.sh;
+chmod 777 /etc/cron.daily/reliable_check.sh;
+3.替换收件人的邮箱
+sed -i "s/23728/你的工号/g" /etc/cron.daily/reliable_check.sh
+4.添加路由，可以ping通200.200.0.12
+

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<string name="s_e">enabled</string>
+<int name="nd_restart" value="22" />
+<string name="push_mac_id">d4:22:3f:f8:db:99</string>
+<int name="pr_app_v" value="1" />
+</map>
