@@ -21,9 +21,9 @@ CSV.foreach(rFilePath) do |file|
 end 
 
 Trello.configure do |config|
-  config.consumer_key = "fb0f0dff4fb96beb6534b707a4ea91a3"
-  config.consumer_secret = "f3c88605ba3ebd75decc90f229522f56d44ec4fc5237289948279b49db84be1e"
-  config.oauth_token = "d64513b726883eabcc4d28565d9b411e9f4892c6765e12f6c99452c8b9e9db5c"
+  config.consumer_key = "xxxxxxxx"
+  config.consumer_secret = "xxxxxx"
+  config.oauth_token = "xxxxxx"
 #  config.oauth_token_secret = TRELLO_OAUTH_TOKEN_SECRET
 end
 
